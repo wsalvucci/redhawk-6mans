@@ -1,0 +1,21 @@
+{
+  "name": "redhawk-6mans",
+  "version": "1.0.0",
+  "description": "A bot that run's Miami University's 6mans matches",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "William Salvucci",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "discord.js-commando": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mongodb": "^3.5.5",
+    "node-fetch": "^2.6.0"
+  }
+}
