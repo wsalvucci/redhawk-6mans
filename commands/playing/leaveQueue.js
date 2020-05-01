@@ -1,5 +1,5 @@
 const { Command } = require('discord.js-commando')
-const leaveQueue = require('./queue').leaveQueue
+const leaveQueue = require('./queueFunctions').leaveQueue
 
 module.exports = class EnterQueueCommand extends Command {
     constructor(client) {

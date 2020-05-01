@@ -6,5 +6,5 @@ const url = 'mongodb+srv://thelounge_app_2020:' + process.env.DATABASE_PASSWORD 
 MongoClient.connect(url, function(err, client) {
     if (err) throw err
 
-    db = client.db(process.env.DATABSE_NAME)
+    db = client.db(process.env.DATABASE_NAME)
 })
